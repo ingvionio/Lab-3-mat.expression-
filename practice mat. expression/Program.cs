@@ -138,4 +138,5 @@ class MathExpression
                 return 0;
 
         }
+    }
 }
