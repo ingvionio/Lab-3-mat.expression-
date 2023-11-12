@@ -138,19 +138,4 @@ class MathExpression
                 return 0;
 
         }
-
-        /*if (operation == '+') return firstNumber + secondNumber;
-
-        if (operation == '-') return firstNumber - secondNumber;
-
-        if (operation == '*') return firstNumber * secondNumber;
-
-        if (operation == '/') return firstNumber / secondNumber;
-
-        else
-        {
-            Console.WriteLine("unknow operation");
-            return 0;
-        }*/
-    }
 }
