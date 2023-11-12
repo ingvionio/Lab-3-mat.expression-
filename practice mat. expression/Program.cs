@@ -126,7 +126,20 @@ class MathExpression
 
     public static double Calculate(char operation, double firstNumber, double secondNumber)
     {
-        if (operation == '+') return firstNumber + secondNumber;
+        switch (operation)
+        {
+            case '+': return firstNumber + secondNumber;
+            case '-': return firstNumber - secondNumber;
+            case '*': return firstNumber * secondNumber;
+            case '/': return secondNumber * secondNumber;
+
+            default:
+                Console.WriteLine("unknow operation");
+                return 0;
+
+        }
+
+        /*if (operation == '+') return firstNumber + secondNumber;
 
         if (operation == '-') return firstNumber - secondNumber;
 
@@ -138,6 +151,6 @@ class MathExpression
         {
             Console.WriteLine("unknow operation");
             return 0;
-        }
+        }*/
     }
 }
